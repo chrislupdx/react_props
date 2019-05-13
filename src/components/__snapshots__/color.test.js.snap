@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Color component renders color info 1`] = `
+<dl>
+  <dt>
+    Name
+  </dt>
+  <dd>
+    Pearl Onions
+     
+    <div
+      style={
+        Object {
+          "backgroundColor": "#7A0C5E",
+          "display": "inline-block",
+          "height": "0.8em",
+          "width": "0.8em",
+        }
+      }
+    />
+  </dd>
+  <dt>
+    Hex
+  </dt>
+  <dd>
+    #7A0C5E
+  </dd>
+  <dt>
+    RGB
+  </dt>
+  <dd>
+    <p>
+      Red - 
+      122
+    </p>
+    <p>
+      Green - 
+      12
+    </p>
+    <p>
+      Blue - 
+      94
+    </p>
+  </dd>
+</dl>
+`;
