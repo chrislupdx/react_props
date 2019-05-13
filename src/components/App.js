@@ -6,7 +6,7 @@ export default function App() {
   return (
         <>
         <Header />
-        <Dog name="ugh" age={200} weight="23 lb" />
+        <Dog name="ugh" age={200} />
         </>
   );
 }

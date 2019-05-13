@@ -1,6 +1,7 @@
 import React from 'react';
+import propTypes from 'prop-types';
 
-export default function Dog({ name, age, weight }) {
+function Dog({ name, age, weight }) {
   return (
     <dl>
       <dt>Name</dt>
@@ -10,7 +11,16 @@ export default function Dog({ name, age, weight }) {
       <dd>{age}</dd>
 
       <dt>Weight</dt>
-      <dd>{weight}</dd>
+      <dd>{weight ? weight : 'unknown' }</dd>
     </dl>
   );
 }
+
+Dog.propTypes = {
+  name: propTypes.string.isRequired,
+  age: propTypes.number.isRequired,
+  weight: propTypes.string.isRequired
+    
+};
+
+export default Dog;
