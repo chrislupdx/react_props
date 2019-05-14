@@ -4,7 +4,7 @@ import styles from './ColorDisplay.css';
 
 function ColorDisplay({ color }) {
   return (
-    <div ClassName={styles.ColorDisplay} style={{ backgroundColor: color }}></div>
+    <div className={styles.ColorDisplay} style={{ backgroundColor: color }}></div>
   );
 }
 
