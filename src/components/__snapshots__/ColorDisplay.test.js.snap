@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ColorDisplay componenet renders a colordisplay 1`] = `
+<div
+  ClassName="ColorDisplay"
+  style={
+    Object {
+      "backgroundColor": "#FF0000",
+    }
+  }
+/>
+`;
